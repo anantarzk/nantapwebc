@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Selamat Datang di Perpustakaan ITS Daring</h1>      
+    <p>Kampus ITS, JL ITS Raya, Sukolilo, 60111, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111.</p>
+  </div>
+  <div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">ITS.ac.id</a>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"> Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Tentang</a>
+        </li>
+         <li class="nav-item active">
+          <a class="nav-link" href="#">Hubungi Kami</a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown" data-toggle="dropdown">
+            Koleksi
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Skripsi</a>
+            <a class="dropdown-item" href="#">Karya Tulis</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Referensi Ilmiah</a>
+          </div>
+        </li>
+      </ul>
+
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Cari" aria-label="Cari">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cari</button>
+      </form>
+     
+   </div>
+	<div class="alert alert-success">
+    	<strong>Success!</strong> Hasil pencarian "Sistem Informasi" ditemukan.
+  	</div>
+        <p> <mark>Disarankan:</mark> </p> 
+            <button type="button" class="btn btn-primary">Sistem Informasi Rumah Sakit</button>
+            <button type="button" class="btn btn-primary">Sistem Informasi Sekolah</button>
+            <button type="button" class="btn btn-primary">Sistem Informasi Kota</button>
+    <div class="dropdown">
+  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+    Urut Berdasarkan
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Tanggal</a>
+    <a class="dropdown-item" href="#">Tayangan</a>
+    <a class="dropdown-item" href="#">Relevansi</a>
+    <a class="dropdown-item" href="#">Rating</a>
+  </div>
+  
+</div>
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action">Analisa dan Desain Sistem Bimbingan Tugas Akhir Berbasis Web dengan Studi Kasus Fakultas Teknologi Informasi,2010. (contoh)</a>
+        <a href="#" class="list-group-item list-group-item-action">Sistem Informasi Geografis Pemetaan Penyakit Kronis dan Demam Berdarah di Puskesmas 1 Baturiti Berbasis Website, 2017. (contoh)</a>
+        <a href="#" class="list-group-item list-group-item-action">Implementasi Framework Codeignter Untuk Pengembangan Website Pada Dinas Perkebunan Provinsi Kalimantan Tengah, 2011. (contoh)</a>
+     </div>
+</div>
+<div>
+    <ul class="pagination justify-content-center">
+        <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">...</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </div>
+  <p class= "text-center"> Institut Teknologi Sepuluh Nopember 2020, Sistem Informasi - PWEB C</p>
+</body>
+</html>
